@@ -1,8 +1,6 @@
 # PROS-Hackathon-2019
 
-The PROS 2019 Hackathon was hosted from July 1st-3rd, 2019. Our assignment was to **“Develop a prototype of a solution for a customer need, that uses AI to find meaning in the data.”** We first indentified the customer need of having a more dynamic way of pricing products. Our solution was to implement a dynamic pricing estimator that utlizied public twitter sentiment data and google trends data anaylsis. 
-
-
+The PROS 2019 Hackathon was hosted from July 1st-3rd, 2019. Our assignment was to **“Develop a prototype of a solution for a customer need, that uses AI to find meaning in the data.”** Our solutions was to provide companies with a pricing recommendation solution that uses Artificial Intelligence to take into account historical data, internet search trends and consumer sentiments. We first indentified the customer need of having a more dynamic way of pricing products. Next we implemened a dynamic pricing estimator that utlizied public twitter sentiment data and google trends data anaylsis. 
 
 ## Authors
 
