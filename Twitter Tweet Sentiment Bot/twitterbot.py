@@ -3,19 +3,19 @@ import csv
 from textblob import TextBlob
 import re
 
-consumer_key= '5Bt339IyUsg0QdX5vbevyk4bO'
-consumer_secret= 'R5H5eP7ebouTb9qS04sfi6R6Yi5LzImszrA8KJEHAul5oXlpn6'
+consumer_key= 'YOUR_KEY'
+consumer_secret= 'YOUR_SECRET_CODE'
 
-access_token='1131250496717709312-lZBpVPv5iEBQ4EuxeIkvZzCHppa6uB'
-access_token_secret='Ugscei2cYZrT3N30NrhERsDIlGYQYP0ovE2kAAo9gTvxC'
+access_token='YOUR_TOKEN'
+access_token_secret='YOUR_TOKEN_SECRET'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.search('Dell Laptop', result_type = 'mixed', count = 100, lang = 'en')
-public_tweets1 = api.search('Dell Laptop', result_type = 'recent', count = 100, lang = 'en')
+public_tweets = api.search('ANYTHING YOU WANT TO SEARCH ON TWITTER', result_type = 'mixed', count = 100, lang = 'en')
+public_tweets1 = api.search('ANYTHING YOU WANT TO SEARCH ON TWITTER', result_type = 'recent', count = 100, lang = 'en')
 
 def clean_tweet( tweet):
     return ' '.join(re.sub("(@[A-Za-z0-9]+)|([^0-9A-Za-z \t])|(\w+:\/\/\S+)", " ", tweet).split())
