@@ -11,4 +11,4 @@ The PROS 2019 Hackathon was hosted from July 1st-3rd, 2019. Our assignment was t
 
 ## Acknowledgments
 
-Thanks to [PROS inc.](https://www.pros.com) for putting on this wonderful Hackathon! 
+Thanks to [PROS inc.](https://www.pros.com) for hosting this wonderful Hackathon! 
