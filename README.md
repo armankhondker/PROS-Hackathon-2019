@@ -8,3 +8,7 @@ The PROS 2019 Hackathon was hosted from July 1st-3rd, 2019. Our assignment was t
 * **Yuanyuan Liu** - *Machine Learning Model and Pricing Estimator* - Harvard University 
 * **Rita Bechara** - *Business pitch and competition presentation* - University of Houston
 * **Forrest Bundrick** - *Google Trends Analysis* - Auburn University 
+
+## Acknowledgments
+
+Thanks to [PROS inc.](https://www.pros.com) for putting on this wonderful Hackathon! 
